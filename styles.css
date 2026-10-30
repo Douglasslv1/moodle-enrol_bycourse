@@ -1,0 +1,26 @@
+.path-enrol .enrol-bycourse-notice {
+    position: relative;
+    display: block;
+    clear: both;
+    width: 100%;
+    margin: 0 0 1rem;
+    padding: 0.875rem 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: left;
+    overflow-wrap: anywhere;
+}
+
+.path-enrol .enrol-bycourse-notice-warning {
+    color: #664d03;
+    background-color: #fff3cd;
+    border-color: #ffecb5;
+}
+
+.path-enrol .enrol-bycourse-notice-success {
+    color: #0f5132;
+    background-color: #d1e7dd;
+    border-color: #badbcc;
+}

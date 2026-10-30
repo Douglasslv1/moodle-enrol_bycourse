@@ -1,0 +1,19 @@
+# Release packages are published separately and must not be versioned.
+*.zip
+
+# Local packaging and test artifacts.
+.package_*/
+.phpunit.result.cache
+coverage/
+
+# Local dependencies, when installed only for development tooling.
+vendor/
+
+# Editors and operating systems.
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
